@@ -1,0 +1,108 @@
+ body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+      .topnav {
+          overflow: hidden;
+          background-color: #333;
+      }
+      .topnav a {
+          float: left;
+          color: #bdb9b9;
+          text-align: center;
+          padding: 20px 40px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+      .topnav a:hover {
+           background-color: #ddd;
+           color: black;
+      }
+    /* Create a right-aligned (split) link inside the navigation bar */
+      .topnav a.split {
+            float: right;
+            background-color: #04AA6D;
+            color: white;
+      }
+      .image{
+        background-color: #4fa9b1;
+        color: rgb(8, 7, 7);
+      }
+      .flip:hover{
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter:drop-shadow(10px 10px 5px);
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 50px;
+        /*transition: transform 0.3s;*/
+      }
+      .gallery img {
+      width: 250px;
+      height: 250px;
+      margin: 20px;
+      border-radius: 60px;
+      transition: transform 0.3s;
+      }
+     .gallery img:hover {
+      transform: scale(1.1);
+      }
+  
+    footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    }
+    .booking{
+      height:fit-content;
+      width: auto;
+      border-radius: 5px;
+      background-color:#bcbebe;
+      padding: 20px;
+    }
+    .item {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    }
+
+.item p {
+    font-weight: bold;
+    color: white;
+}
+
+input[type=text],[type=email],[type=date],[type=tel],textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.text span{
+  display: inline-block;
+  margin: 0px 90px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  font-size: +20;
+  font-style: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+      
